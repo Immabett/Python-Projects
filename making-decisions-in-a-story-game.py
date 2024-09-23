@@ -1,5 +1,6 @@
 print ("welcome to my first game!")
-print (" I am Nihal SAKHRI, the developer of this game")
+print("I have a game here on number guessing, welcome to this game!")
+print (" I am Immaculate Bett, the developer of this game")
 print("let's have some fun together!")
 name = input("what is your name? ")
 age = int(input ("what is your age?"))
@@ -38,7 +39,7 @@ else:
 
 ans = input("you notice a house and a river, which do you go to (house/river)?")
 if ans == "house":
-      print("you go to the house and are greted by the owner... he doesn't like you and lost 5 health")
+      print("you go to the house and the owner greets you... he doesn't like you and lost 5 health")
       health -= 5
 else:
   print("you swim accross the river successfully!")

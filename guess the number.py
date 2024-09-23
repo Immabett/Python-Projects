@@ -3,8 +3,8 @@ import random
 n = random.randint(1, 10)
 count = 1
 guess_chances = 3
-name= input("Hi, let's play a game. But first what's your name?")
-print("Hello", (name) , "I am NIHAL, the developper of this guessing game, I am going to guess a number between 1 and 10, you need to guess it")
+name= input("Hi, I have a game here let's play a together. But first what's your name?")
+print("Hello", (name) , "I am Immaculate Bett, the developper of this guessing game, I am going to guess a number between 1 and 10, you need to guess it")
 print("Remember, you only have 3 chances to guess right")
 while 1 <= guess_chances:
     num = int(input("Guess the Number: "))
